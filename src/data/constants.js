@@ -269,31 +269,22 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
-    school: "Kalinga Institute of Industrial Technology, Bhubaneswar",
-    date: "Oct 2021 - Sep 2025",
-    grade: "8.71 CGPA",
+    img: "data:image/png;base64,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",
+    school: "The American University in Cairo",
+    date: "Sep 2018 - Feb 2023",
+    grade: "3.97/4.00 GPA",
     desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kalinga Institute of Industrial Technology, Bhubaneswar. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
-    degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
+    degree: "Bachelor of Applied Science - Computer Science",
   },
   {
     id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-    school: "Methodist School, Dankuni",
-    date: "Apr 2019 - Apr 2025",
-    grade: "88.2%",
-    desc: "I completed my class 12 high school education at Methodist School, Dankuni, where I studied Science with Computer Science.",
-    degree: "ISC(XII), Science with Computer",
-  },
-  {
-    id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-    school: "Methodist School, Dankuni",
-    date: "Apr 2017 - Apr 2019",
-    grade: "92.3%",
-    desc: "I completed my class 10 education at Methodist School, Dankuni, where I studied Science with Computer Application.",
-    degree: "ICSC(X), Science with Computer",
-  },
+    img: "https://logo.lusha.co/d/company_18083285_logo.jpg",
+    school: "Misr American College",
+    date: "Graduated June 2018",
+    grade: "3.96/4.00 GPA",
+    desc: "Having graduated as class valedictorian, I was also president of the National Honors Society, and the starting center back for the school's football team.",
+    degree: "American High School Diploma",
+  }
 ];
 
 export const projects = [
