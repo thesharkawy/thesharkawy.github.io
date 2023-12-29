@@ -1,4 +1,4 @@
-import { CloseRounded, GitHub, LinkedIn } from '@mui/icons-material';
+import { CloseRounded, LinkedIn } from '@mui/icons-material';
 import { Modal } from '@mui/material';
 import React from 'react'
 import styled from 'styled-components'
@@ -224,8 +224,8 @@ const index = ({ openModal, setOpenModal }) => {
                         </>
                     )}
                     <ButtonGroup>
-                        <Button dull href={project?.github} target='new'>View Code</Button>
-                        <Button href={project?.webapp} target='new'>View Live App</Button>
+                        {project.button1 !== "" && <Button dull href={project?.button1} target='new'>View {project.b1label}</Button>}
+                        {project.button2 !== "" && <Button href={project?.button2} target='new'>View {project.b2label}</Button>}  
                     </ButtonGroup>
                 </Wrapper>
             </Container>

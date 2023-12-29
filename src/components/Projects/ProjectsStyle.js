@@ -75,7 +75,7 @@ export const ToggleButton = styled.div`
     &:hover {
         background: ${({ theme }) => theme.primary + 8};
     }
-    @media (max-width: 768px) {
+    @media (max-width: 800px) {
         padding: 6px 8px;
         border-radius: 4px;
     }

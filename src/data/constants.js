@@ -7,6 +7,8 @@ import auclogo from './images/auclogo.png'
 import vodafonelogo from './images/vflogo.png'
 import valifylogo from './images/valifylogo.png'
 import eslogo from './images/eslogo.png'
+import esweb from './images/esweb.PNG'
+import gcplogo from './images/gcplogo.png'
 
 export const Bio = {
   name: "Mostafa Elsharkawy",
@@ -47,7 +49,11 @@ export const skills = [
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Microsoft_Office_Word_%282019%E2%80%93present%29.svg/2203px-Microsoft_Office_Word_%282019%E2%80%93present%29.svg.png",
       },
-      
+      {
+        name: "Canva",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Canva_icon_2021.svg/2048px-Canva_icon_2021.svg.png",
+      },
       {
         name: "Creative Cloud",
         image:
@@ -62,11 +68,6 @@ export const skills = [
         name: "Git",
         image:
           "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
-      },
-      {
-        name: "GitHub",
-        image:
-          "https://cdn-icons-png.flaticon.com/512/25/25231.png",
       },
       {
         name: "VS Code",
@@ -93,7 +94,7 @@ export const skills = [
       },
       {
         name: "GCP",
-        image: "https://seeklogo.com/images/G/google-cloud-logo-ADE788217F-seeklogo.com.png",
+        image: gcplogo,
       },    
       {
         name: "MySQL",
@@ -321,8 +322,10 @@ export const projects = [
       "Streamlit",
     ],
     category: "machine learning",
-    // github: "https://github.com/rishavchanda/Trackify",
-    webapp: "https://thesharkawy-streamlit-test-app-i5ga0o.streamlit.app/",
+    button1: "",
+    b1label: "",
+    button2: "https://thesharkawy-streamlit-test-app-i5ga0o.streamlit.app/",
+    b2label: "Live App",
     member: [
       {
         name: "Mostafa Elsharkawy",
@@ -367,8 +370,10 @@ export const projects = [
       "Wix",
     ],
     category: "competition",
-    github: "https://www.canva.com/design/DAFT6YSZLSw/PLnBWFz7q2GtBsP4c5Ru8g/edit?utm_content=DAFT6YSZLSw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
-    webapp: "https://www.canva.com/design/DAFT6YSZLSw/PLnBWFz7q2GtBsP4c5Ru8g/edit?utm_content=DAFT6YSZLSw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+    b1label: "",
+    button1: "",
+    b2label: "Presentation",
+    button2: "https://www.canva.com/design/DAFT6YSZLSw/PLnBWFz7q2GtBsP4c5Ru8g/edit?utm_content=DAFT6YSZLSw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
     member: [
             {
               name: "Mostafa Elsharkawy",
@@ -399,8 +404,10 @@ export const projects = [
       "Canva",
     ],
     category: "machine learning",
-    github: "https://www.kaggle.com/code/mostafaelsharkawy/final-model-face-recognition-with-facenet",
-    webapp: "https://www.kaggle.com/code/mostafaelsharkawy/final-model-face-recognition-with-facenet",
+    b1label: "",
+    button1: "",
+    button2: "https://www.kaggle.com/code/mostafaelsharkawy/final-model-face-recognition-with-facenet",
+    b2label: "Code",
     member: [
       {
         name: "Mostafa Elsharkawy",
@@ -430,8 +437,10 @@ export const projects = [
       "Figma",
     ],
     category: "competition",
-    github: "https://docs.google.com/presentation/d/120uo9xX37A0Mf0Nc2hDag9w-vzbGV8RRiVIAltH8SdM/edit?usp=sharing",
-    webapp: "https://docs.google.com/presentation/d/120uo9xX37A0Mf0Nc2hDag9w-vzbGV8RRiVIAltH8SdM/edit?usp=sharing",
+    b1label: "",
+    button1: "",
+    b2label: "Presentation",
+    button2: "https://docs.google.com/presentation/d/120uo9xX37A0Mf0Nc2hDag9w-vzbGV8RRiVIAltH8SdM/edit?usp=sharing",
     member: [
       {
         name: "Mostafa Elsharkawy",
@@ -455,30 +464,39 @@ export const projects = [
       },
     ]
   },
-  // {
-  //   id: 4,
-  //   title: "",
-  //   date: "Sep 2021 - May 2022",
-  //   description:
-  //     "",
-  //   image:
-  //     fortuneai,
-  //   tags: [
-  //     "Python3",
-  //     "XGBoost",
-  //     "Django",
-  //     "ReactJS",
-  //     "PostgreSQL",
-  //     "Linux",
-  //     "Git",
-  //     "Docker",
-  //     "GCP",
-  //     "Streamlit",
-  //   ],
-  //   category: "machine learning",
-  //   github: "https://github.com/rishavchanda/Trackify",
-  //   webapp: "https://trackify.duckdns.org",
-  // },
+  {
+    id: 0,
+    title: "Entrepreneur's Society Official Website",
+    date: "Dec 2021 - Present",
+    description:
+      "Developed the new official website for Entrepreneur's Society. This template has been used since December 2021 and is continuously updated each year based on the current web development team. As ICT Manager in 2021-2022, I led a team of nine in maintaining the site since its inception, increasing our user base by almost ~1900%.",
+    image:
+      esweb,
+    tags: [
+      "Wix",
+      "ReactJS",
+      "Excel",
+      "Python3",
+      "Canva",
+    ],
+    category: "web app",
+    b1label: "",
+    button1: "",
+    b2label: "Live Site",
+    button2: "https://www.entrepreneurssociety.org/",
+    member: [
+      {
+        name: "Mostafa Elsharkawy",
+        img: "https://avatars.githubusercontent.com/u/78561774?v=4",
+        linkedin: "https://www.linkedin.com/in/thesharkawy/",
+      },
+      {
+        name: "Andrew Sinout",
+        img: "https://media.licdn.com/dms/image/C4E03AQF9576dYP4hhg/profile-displayphoto-shrink_400_400/0/1637847611263?e=1709164800&v=beta&t=yuQWHXIewvz8hk5e9GyHrccrWBUhkxU3IUJO76gs5mA",
+        linkedin: "https://www.linkedin.com/in/andrew-sinout-28b836226/",
+      },
+    ]
+  },
   
 ]
 
