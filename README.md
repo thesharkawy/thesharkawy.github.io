@@ -1,5 +1,8 @@
 ### Portfolio Website
 ## Using ReactJS
+# Credits:
+* Template: Rishav Chanda
+* Github: https://github.com/rishavchanda/rishavchanda.github.io
 
 ## Deploying
 * `npm run deploy`

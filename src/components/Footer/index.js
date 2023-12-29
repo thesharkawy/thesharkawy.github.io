@@ -4,7 +4,9 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import GitHubIcon from '@mui/icons-material/GitHub'
+import TikTokIcon from '@mui/icons-material/Favorite'
 import { Bio } from '../../data/constants';
+
 
 const FooterContainer = styled.div`
   width: 100%;
@@ -103,6 +105,7 @@ function Footer() {
           <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.github} target="display"><GitHubIcon /></SocialMediaIcon>
+          <SocialMediaIcon href={Bio.tiktok} target="display"><TikTokIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
           Mostafa Elsharkawy &copy; 2023. All rights reserved.

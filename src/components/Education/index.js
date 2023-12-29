@@ -83,7 +83,7 @@ const index = () => {
             <Wrapper>
                 <Title>Education</Title>
                 <Desc>
-                Acquiring knowledge is a lifelong journey. Here's a glimpse into my educational timeline."
+                Acquiring knowledge is a lifelong journey. Here's a glimpse into my educational timeline.
                     </Desc>
                 <TimelineSection>
                     <Timeline>
