@@ -9,6 +9,11 @@ import valifylogo from './images/valifylogo.png'
 import eslogo from './images/eslogo.png'
 import esweb from './images/esweb.PNG'
 import gcplogo from './images/gcplogo.png'
+import csslogo from './images/csslogo.png'
+import excellogo from './images/excellogo.png'
+import wordlogo from './images/wordlogo.png'
+import powerpointlogo from './images/powerpointlogo.png'
+import aucsusite from "./images/aucsusite.PNG"
 
 export const Bio = {
   name: "Mostafa Elsharkawy",
@@ -37,17 +42,20 @@ export const skills = [
       {
         name: "Excel",
         image:
-          "https://seeklogo.com/images/M/microsoft-excel-logo-F8C90B4427-seeklogo.com.png",
+          // "https://seeklogo.com/images/M/microsoft-excel-logo-F8C90B4427-seeklogo.com.png",
+          excellogo,
       },
       {
         name: "PowerPoint",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Microsoft_Office_PowerPoint_%282019%E2%80%93present%29.svg/512px-Microsoft_Office_PowerPoint_%282019%E2%80%93present%29.svg.png?20210821050414",
-      },
+          // "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Microsoft_Office_PowerPoint_%282019%E2%80%93present%29.svg/512px-Microsoft_Office_PowerPoint_%282019%E2%80%93present%29.svg.png?20210821050414",
+          powerpointlogo,
+        },
       {
         name: "Word",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Microsoft_Office_Word_%282019%E2%80%93present%29.svg/2203px-Microsoft_Office_Word_%282019%E2%80%93present%29.svg.png",
+          wordlogo,
+        // "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Microsoft_Office_Word_%282019%E2%80%93present%29.svg/2203px-Microsoft_Office_Word_%282019%E2%80%93present%29.svg.png",
       },
       {
         name: "Canva",
@@ -141,7 +149,7 @@ export const skills = [
       {
         name: "CSS",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+          csslogo,
       },
       {
         name: "JavaScript",
@@ -285,7 +293,7 @@ export const education = [
     school: "The American University in Cairo",
     date: "Sep 2018 - Feb 2023",
     grade: "3.97/4.00 GPA",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kalinga Institute of Industrial Technology, Bhubaneswar. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
+    desc: "",
     degree: "Bachelor of Applied Science - Computer Science",
   },
   {
@@ -299,7 +307,7 @@ export const education = [
   }
 ];
 
-// web app, machine learning, competition
+// Categories: web app, machine learning, competition
 export const projects = [
   {
     id: 0,
@@ -360,6 +368,7 @@ export const projects = [
     date: "Dec 2022",
     description:
       "Inspired by BayMax from Big Hero 6, Medic.ai is a digital solution that can intake patient information and accurately output a diagnosis with the proper medication plan. Its goal is to reduce the number of misdiagnoses globally while also contributing to the UN SDGS #3 (Good Health and Well-Being), #10 (Reduced Inequalities), and #13 (Climate Action).",
+    desc2: "This pitch was submitted in competition with over 30 local and international teams in the IEEE Region 8 OPET at the University of Hertfordshire.",
     image:
       medicai,
     tags: [
@@ -427,6 +436,7 @@ export const projects = [
     date: "Apr 2022",
     description:
       "A Machine Learning (AI) application that analyzes cargo ship and climate data to predict which ships are most likely to produce the largest spills, and effectively provide maintenance to those selected ships.",
+    desc2: "This pitch secured first place in the AUC Student Union Real Life Global Competition, surpassing over 60 teams from 22 local and international universities.",
     image:
       tracksea,
     tags: [
@@ -494,6 +504,40 @@ export const projects = [
         name: "Andrew Sinout",
         img: "https://media.licdn.com/dms/image/C4E03AQF9576dYP4hhg/profile-displayphoto-shrink_400_400/0/1637847611263?e=1709164800&v=beta&t=yuQWHXIewvz8hk5e9GyHrccrWBUhkxU3IUJO76gs5mA",
         linkedin: "https://www.linkedin.com/in/andrew-sinout-28b836226/",
+      },
+    ]
+  },
+  {
+    id: 0,
+    title: "AUC Student Union Website",
+    date: "Sep 2019 - June 2020",
+    description:
+      "Contributed in developing the frontend for the official website of the AUC Student Union.",
+    image:
+      aucsusite,
+    tags: [
+      "AngularJS",
+      "ReactJS",
+      "NodeJS",
+      "HTML",
+      "CSS",
+      "JavaScript",
+    ],
+    category: "web app",
+    b1label: "",
+    button1: "",
+    b2label: "Live Site",
+    button2: "https://www.aucsu.org/",
+    member: [
+      {
+        name: "Mostafa Elsharkawy",
+        img: "https://avatars.githubusercontent.com/u/78561774?v=4",
+        linkedin: "https://www.linkedin.com/in/thesharkawy/",
+      },
+      {
+        name: "Salma Wafa",
+        img: "https://media.licdn.com/dms/image/C4D03AQGMb6Gwysat7Q/profile-displayphoto-shrink_400_400/0/1627401331149?e=1709164800&v=beta&t=cZ-gxQYRWs21Z3aAkNp6K8jxWuyNhEpczisu_POwvXg",
+        linkedin: "https://www.linkedin.com/in/salma-wafa-69854b194/",
       },
     ]
   },

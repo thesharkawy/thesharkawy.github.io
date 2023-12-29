@@ -207,6 +207,7 @@ const index = ({ openModal, setOpenModal }) => {
                         ))}
                     </Tags>
                     <Desc>{project?.description}</Desc>
+                    {project.desc2 && <Desc>{project?.desc2}</Desc>}
                     {project.member && (
                         <>
                             <Label>Members</Label>
