@@ -2,6 +2,11 @@ import fortuneai from './images/fortuneai.PNG'
 import medicai from './images/medicai.png'
 import facenet from './images/facenet.png'
 import tracksea from './images/tracksea.PNG'
+import microsoftlogo from './images/microsoftlogo.png'
+import auclogo from './images/auclogo.png'
+import vodafonelogo from './images/vflogo.png'
+import valifylogo from './images/valifylogo.png'
+import eslogo from './images/eslogo.png'
 
 export const Bio = {
   name: "Mostafa Elsharkawy",
@@ -170,7 +175,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://static.vecteezy.com/system/resources/previews/027/127/592/original/microsoft-logo-microsoft-icon-transparent-free-png.png",
+    img: microsoftlogo,
     role: "Associate Software Development Engineer",
     company: "Microsoft",
     date: "June 2022 - Spetember 2022",
@@ -190,12 +195,12 @@ export const experiences = [
     // doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
   },
   {
-    id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
-    role: "Frontend Engineer Intern",
-    company: "Neurobit",
-    date: "June 2023 - Present",
-    desc: "Working on the frontend of the web application using ReactJS, Redux, and Material UI.",
+    id: 1,
+    img: auclogo,
+    role: "AUC Student Ambassador",
+    company: "The American University in Cairo",
+    date: "June 2020 - January 2023",
+    desc: "",
     skills: [
       "ReactJS",
       "Redux",
@@ -205,15 +210,15 @@ export const experiences = [
       "CSS",
       "JavaScript",
     ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
+    // doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
   },
   {
     id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-    role: "Fullstack Externship",
-    company: "Flipr",
-    date: "June 2023 - July 2023",
-    desc: "Built an employee management full stack web app used Docker and deployed on AWS ec2. I was the top performer in the program.",
+    img: vodafonelogo,
+    role: "Big Data Intern - Consumer Business Unit",
+    company: "Vodafone Egypt",
+    date: "August 2021 - September 2021",
+    desc: "",
     skills: [
       "ReactJS",
       "Redux",
@@ -228,21 +233,21 @@ export const experiences = [
     ],
   },
   {
-    id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
-    role: "Open Source Contributor ",
-    company: "GirlScript Summer of Code",
-    date: "May 2023 - Present",
-    desc: "Contributing to different open-source projects and learn from industry experts",
-    doc: "https://media.licdn.com/dms/image/D4D22AQGzSpgFaR4hsQ/feedshare-shrink_800/0/1684079632872?e=1687996800&v=beta&t=i0xWn_k32Oj9SxKfc6rARSbOghXD9Ge6WyEb2p2vvrc",
+    id: 0,
+    img: valifylogo,
+    role: "Backend Software Engineer",
+    company: "Valify Solutions",
+    date: "July 2021 - September 2021",
+    desc: "",
+    // doc: "https://media.licdn.com/dms/image/D4D22AQGzSpgFaR4hsQ/feedshare-shrink_800/0/1684079632872?e=1687996800&v=beta&t=i0xWn_k32Oj9SxKfc6rARSbOghXD9Ge6WyEb2p2vvrc",
   },
   {
-    id: 3,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/gdsc.jpeg?alt=media&token=c162329c-efaa-4be8-a173-8d3f4c48ea70",
-    role: "Android Developer",
-    company: "DSC KIIT",
-    date: "Nov2021 - Present",
-    desc: "As an Android developer at the Google Developers Student Club (GDCS), I have had the opportunity to work on exciting projects and collaborate with talented developers who share my passion for technology. Through my involvement with GDCS, I have also had the opportunity to host and participate in numerous events, including hackathons, study jams, and workshops.",
+    id: 0,
+    img: eslogo,
+    role: "ICT Committee Manager",
+    company: "Entrepreneur's Society",
+    date: "September 2020 - June 2021",
+    desc: "",
     skills: [
       "Leadership",
       "Mobile Application Development",
@@ -252,12 +257,12 @@ export const experiences = [
     ],
   },
   {
-    id: 4,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Rudraksha.jpeg?alt=media&token=8f83f41e-d0a1-486f-9c7f-dd4cd1d09e8d",
-    role: "Android Developer Intern",
-    company: "Rudraksha Welffare Foundation",
-    date: "June 2021 - Oct 2021",
-    desc: "As an Android Developer Intern at Rudraksha Welfare Foundation from June 2021 to October 2021, I gained valuable hands-on experience in application development. During my tenure, I contributed to the development of the application's back-end cloud functions using Firebase and implemented a front-end with the MVVM structure, which was designed using Figma. I also added a one-to-one video call feature, conceptualized new features, and optimized app performance. This internship helped me enhance my skills in Android development and gave me an opportunity to work in a collaborative team environment.",
+    id: 0,
+    img: auclogo,   
+    role: "Undergraduate Teaching Assistant",
+    company: "The American University in Cairo",
+    date: "September 2019 - September 2020",
+    desc: "",
     skills: [
       "Android",
       "Java",
@@ -268,7 +273,7 @@ export const experiences = [
       "Firebase",
       "Figma",
     ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/WhatsApp%20Image%202023-05-05%20at%2012.07.39%20AM.jpeg?alt=media&token=9f0e1648-568b-422d-bd0b-1f125f722245",
+    // doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/WhatsApp%20Image%202023-05-05%20at%2012.07.39%20AM.jpeg?alt=media&token=9f0e1648-568b-422d-bd0b-1f125f722245",
   },
 ];
 
@@ -450,30 +455,30 @@ export const projects = [
       },
     ]
   },
-  {
-    id: 4,
-    title: "",
-    date: "Sep 2021 - May 2022",
-    description:
-      "",
-    image:
-      fortuneai,
-    tags: [
-      "Python3",
-      "XGBoost",
-      "Django",
-      "ReactJS",
-      "PostgreSQL",
-      "Linux",
-      "Git",
-      "Docker",
-      "GCP",
-      "Streamlit",
-    ],
-    category: "machine learning",
-    github: "https://github.com/rishavchanda/Trackify",
-    webapp: "https://trackify.duckdns.org",
-  },
+  // {
+  //   id: 4,
+  //   title: "",
+  //   date: "Sep 2021 - May 2022",
+  //   description:
+  //     "",
+  //   image:
+  //     fortuneai,
+  //   tags: [
+  //     "Python3",
+  //     "XGBoost",
+  //     "Django",
+  //     "ReactJS",
+  //     "PostgreSQL",
+  //     "Linux",
+  //     "Git",
+  //     "Docker",
+  //     "GCP",
+  //     "Streamlit",
+  //   ],
+  //   category: "machine learning",
+  //   github: "https://github.com/rishavchanda/Trackify",
+  //   webapp: "https://trackify.duckdns.org",
+  // },
   
 ]
 
