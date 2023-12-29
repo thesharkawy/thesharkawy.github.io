@@ -1,12 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.bf538fe7.css",
-    "main.js": "/static/js/main.3a579b4d.js",
+    "main.js": "/static/js/main.0246cfc6.js",
     "static/media/medicai.png": "/static/media/medicai.dc3985f0ccd71f5d81c0.png",
+    "static/media/esweb.PNG": "/static/media/esweb.2aac5657e451f58596f3.PNG",
     "static/media/facenet.png": "/static/media/facenet.35008ddf0e69ebcb3ab1.png",
     "static/media/eslogo.png": "/static/media/eslogo.2b38b4a21a45301475a0.png",
     "static/media/auclogo.png": "/static/media/auclogo.24d3e2751778be45dcfb.png",
     "static/media/valifylogo.png": "/static/media/valifylogo.12e4b90fca1baf5313e6.png",
+    "static/media/gcplogo.png": "/static/media/gcplogo.d49254a85698e93b65eb.png",
     "static/media/vflogo.png": "/static/media/vflogo.ba88debb5a76a16e7628.png",
     "static/media/tracksea.PNG": "/static/media/tracksea.ffc2927fa8007ad44f4b.PNG",
     "static/media/fortuneai.PNG": "/static/media/fortuneai.65bb0fe92b7ca4ff5924.PNG",
@@ -14,10 +16,10 @@
     "static/media/microsoftlogo.png": "/static/media/microsoftlogo.fecb5db827412c801fe8.png",
     "index.html": "/index.html",
     "main.bf538fe7.css.map": "/static/css/main.bf538fe7.css.map",
-    "main.3a579b4d.js.map": "/static/js/main.3a579b4d.js.map"
+    "main.0246cfc6.js.map": "/static/js/main.0246cfc6.js.map"
   },
   "entrypoints": [
     "static/css/main.bf538fe7.css",
-    "static/js/main.3a579b4d.js"
+    "static/js/main.0246cfc6.js"
   ]
 }
