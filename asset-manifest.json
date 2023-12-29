@@ -1,25 +1,30 @@
 {
   "files": {
     "main.css": "/static/css/main.bf538fe7.css",
-    "main.js": "/static/js/main.0246cfc6.js",
+    "main.js": "/static/js/main.7374cb4f.js",
     "static/media/medicai.png": "/static/media/medicai.dc3985f0ccd71f5d81c0.png",
     "static/media/esweb.PNG": "/static/media/esweb.2aac5657e451f58596f3.PNG",
     "static/media/facenet.png": "/static/media/facenet.35008ddf0e69ebcb3ab1.png",
+    "static/media/excellogo.png": "/static/media/excellogo.33d0c7b9863cc34fc573.png",
     "static/media/eslogo.png": "/static/media/eslogo.2b38b4a21a45301475a0.png",
     "static/media/auclogo.png": "/static/media/auclogo.24d3e2751778be45dcfb.png",
     "static/media/valifylogo.png": "/static/media/valifylogo.12e4b90fca1baf5313e6.png",
+    "static/media/wordlogo.png": "/static/media/wordlogo.0d089cd58035abe7f586.png",
+    "static/media/aucsusite.PNG": "/static/media/aucsusite.59add0639f07351bb13a.PNG",
     "static/media/gcplogo.png": "/static/media/gcplogo.d49254a85698e93b65eb.png",
+    "static/media/powerpointlogo.png": "/static/media/powerpointlogo.d7e792a8ba0cab33e2fb.png",
     "static/media/vflogo.png": "/static/media/vflogo.ba88debb5a76a16e7628.png",
     "static/media/tracksea.PNG": "/static/media/tracksea.ffc2927fa8007ad44f4b.PNG",
+    "static/media/csslogo.png": "/static/media/csslogo.f1a0a3fdf4b366e0d647.png",
     "static/media/fortuneai.PNG": "/static/media/fortuneai.65bb0fe92b7ca4ff5924.PNG",
     "static/media/thesharkawy.jpg": "/static/media/thesharkawy.8520d4048ed61882e0b4.jpg",
     "static/media/microsoftlogo.png": "/static/media/microsoftlogo.fecb5db827412c801fe8.png",
     "index.html": "/index.html",
     "main.bf538fe7.css.map": "/static/css/main.bf538fe7.css.map",
-    "main.0246cfc6.js.map": "/static/js/main.0246cfc6.js.map"
+    "main.7374cb4f.js.map": "/static/js/main.7374cb4f.js.map"
   },
   "entrypoints": [
     "static/css/main.bf538fe7.css",
-    "static/js/main.0246cfc6.js"
+    "static/js/main.7374cb4f.js"
   ]
 }
