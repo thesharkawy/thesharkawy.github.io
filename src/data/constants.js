@@ -220,7 +220,6 @@ export const experiences = [
       "Public Speaking",
       "Management"
     ],
-    // doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
   },
   {
     id: 1,
@@ -262,13 +261,15 @@ export const experiences = [
     role: "ICT Committee Manager",
     company: "Entrepreneur's Society",
     date: "September 2020 - June 2021",
-    desc: "",
+    desc: "I managed a team of 9 in redesigning a website and branding, which resulted in a significant increase in the user base by ~1,900% (from 30 to 600+ concurrent users). I also converted events to hybrid models during COVID-19, which led to a ~40% increase in participating teams. Additionally, I utilized online models to host events such as the Social Entrepreneurship Challenge and the Junior Startup Challenge, which led to a record-breaking 88 participating teams.",
     skills: [
+      "Project Management",
+      "Software Development",
       "Leadership",
-      "Mobile Application Development",
-      "Kotlin",
-      "XML",
-      "Figma",
+      "Microsoft Office",
+      "Python",
+      "Wix",
+      "Zoom"
     ],
   },
   {
@@ -277,18 +278,13 @@ export const experiences = [
     role: "Undergraduate Teaching Assistant",
     company: "The American University in Cairo",
     date: "September 2019 - September 2020",
-    desc: "",
+    desc: "I have educated students in understanding computer science assignments and projects. I have also communicated complex programming topics within fields of algorithms and object-oriented development.",
     skills: [
-      "Android",
-      "Java",
-      "Kotlin",
-      "XML",
-      "Node Js",
-      "Cloud Firestore",
-      "Firebase",
-      "Figma",
+      "Python",
+      "C/C++",
+      "Teaching",
+      "Communication",
     ],
-    // doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/WhatsApp%20Image%202023-05-05%20at%2012.07.39%20AM.jpeg?alt=media&token=9f0e1648-568b-422d-bd0b-1f125f722245",
   },
 ];
 
