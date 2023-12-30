@@ -24,11 +24,11 @@ const Navbar = () => {
           }} />
         </MobileIcon>
         <NavItems>
-          <NavLink href="#about">About</NavLink>
           <NavLink href='#skills'>Skills</NavLink>
           <NavLink href='#experience'>Experience</NavLink>
           <NavLink href='#projects'>Projects</NavLink>
           <NavLink href='#education'>Education</NavLink>
+          <NavLink href="#contact">Contact</NavLink>
         </NavItems>
         <ButtonContainer>
           <GitHubButton href={Bio.linkedin} target="_blank">LinkedIn Profile</GitHubButton>
@@ -36,9 +36,6 @@ const Navbar = () => {
         {
           isOpen &&
           <MobileMenu isOpen={isOpen}>
-            <MobileLink href="#about" onClick={() => {
-              setIsOpen(!isOpen)
-            }}>About</MobileLink>
             <MobileLink href='#skills' onClick={() => {
               setIsOpen(!isOpen)
             }}>Skills</MobileLink>
@@ -51,6 +48,9 @@ const Navbar = () => {
             <MobileLink href='#education' onClick={() => {
               setIsOpen(!isOpen)
             }}>Education</MobileLink>
+            <MobileLink href="#contact" onClick={() => {
+              setIsOpen(!isOpen)
+            }}>Contact</MobileLink>
             <GitHubButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href={Bio.linkedin} target="_blank">LinkedIn Profile</GitHubButton>
           </MobileMenu>
         }

@@ -6,13 +6,15 @@ import { Snackbar } from '@mui/material';
 
 const Container = styled.div`
 display: flex;
+padding-top: 100px;
 flex-direction: column;
 justify-content: center;
 position: relative;
 z-index: 1;
 align-items: center;
 @media (max-width: 960px) {
-    padding: 0px;
+    padding-top: 100px;
+
 }
 `
 
@@ -142,7 +144,7 @@ const Contact = () => {
 
 
   return (
-    <Container>
+    <Container id="contact">
       <Wrapper>
         <Title>Get in Touch</Title>
         <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
