@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.bf538fe7.css",
-    "main.js": "/static/js/main.8f62d696.js",
+    "main.js": "/static/js/main.5c91153d.js",
     "static/media/medicai.png": "/static/media/medicai.dc3985f0ccd71f5d81c0.png",
     "static/media/microsoftxp.png": "/static/media/microsoftxp.1acea7209c0304aad1c5.png",
     "static/media/valifyxp.png": "/static/media/valifyxp.21c0dfe1348f4a0249ce.png",
@@ -27,10 +27,10 @@
     "static/media/microsoftlogo.png": "/static/media/microsoftlogo.fecb5db827412c801fe8.png",
     "index.html": "/index.html",
     "main.bf538fe7.css.map": "/static/css/main.bf538fe7.css.map",
-    "main.8f62d696.js.map": "/static/js/main.8f62d696.js.map"
+    "main.5c91153d.js.map": "/static/js/main.5c91153d.js.map"
   },
   "entrypoints": [
     "static/css/main.bf538fe7.css",
-    "static/js/main.8f62d696.js"
+    "static/js/main.5c91153d.js"
   ]
 }
