@@ -24,6 +24,16 @@ import figmalogo from './images/figmalogo.png'
 import postmanlogo from './images/postmanlogo.png'
 import gitlogo from './images/gitlogo.png'
 import nextjslogo from './images/nextjslogo.png'
+import clogo from './images/clogo.png'
+import cpplogo from './images/cpplogo.png'
+import csharplogo from './images/csharplogo.png'
+import javalogo from './images/javalogo.png'
+import pythonlogo from './images/pythonlogo.png'
+import chesslogo from './images/chesslogo.png'
+import footballlogo from './images/footballlogo.png'
+import guitarlogo from './images/guitarlogo.png'
+import pianologo from './images/pianologo.png'
+import tiktoklogo from './images/tiktoklogo.png'
 
 
 export const Bio = {
@@ -92,51 +102,6 @@ export const skills = [
     ],
   },
   {
-    title: "Backend",
-    skills: [
-      {
-        name: "Python",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
-      },
-      {
-        name: "Django",
-        image: "https://cdn.worldvectorlogo.com/logos/django.svg",
-      },
-      {
-        name: "Node.js",
-        image: "https://nodejs.org/static/images/logo.svg",
-      },
-      {
-        name: "GCP",
-        image: gcplogo,
-      },    
-      {
-        name: "MySQL",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
-      },
-      // {
-      //   name: "Firebase",
-      //   image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
-      // },
-      {
-        name: "Postman",
-        image: postmanlogo,
-      },
-      {
-        name: "PostgreSQL",
-        image: "https://www.postgresql.org/media/img/about/press/elephant.png",
-      },
-      
-      {
-        name: "Docker",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
-      },
-    ],
-  },
-  {
     title: "Frontend",
     skills: [
       {
@@ -170,17 +135,89 @@ export const skills = [
     ],
   },
   {
-    title: "Machine Learning",
+    title: "Backend",
     skills: [
       {
-        name: "Netlify",
-        image:
-          "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
+        name: "Django",
+        image: "https://cdn.worldvectorlogo.com/logos/django.svg",
       },
       {
-        name: "Adobe XD",
+        name: "Node.js",
+        image: "https://nodejs.org/static/images/logo.svg",
+      },
+      {
+        name: "GCP",
+        image: gcplogo,
+      },    
+      {
+        name: "MySQL",
         image:
-          "https://camo.githubusercontent.com/c205ecbe12500177d102169d97bc1c17c545155fdf5ec78c08d54ac53e5b38c1/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f61646f62652d78642e737667",
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+      },
+      {
+        name: "Postman",
+        image: postmanlogo,
+      },
+      {
+        name: "PostgreSQL",
+        image: "https://www.postgresql.org/media/img/about/press/elephant.png",
+      },
+      
+      {
+        name: "Docker",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
+      },
+    ],
+  },
+  {
+    title: "Programming",
+    skills: [
+      {
+        name: "C++",
+        image: cpplogo,
+      },
+      {
+        name: "Python",
+        image: pythonlogo,
+      },
+      {
+        name: "C",
+        image: clogo,
+      },
+      {
+        name: "C#",
+        image: csharplogo,
+      },
+      {
+        name: "Java",
+        image: javalogo,
+      },
+      
+    ],
+  },
+  {
+    title: "Hobbies",
+    skills: [
+      {
+        name: "Chess",
+        image: chesslogo,
+      },
+      {
+        name: "Football",
+        image: footballlogo,
+      },
+      {
+        name: "Guitar",
+        image: guitarlogo,
+      },
+      {
+        name: "Piano",
+        image: pianologo,
+      },
+      {
+        name: "Content Creation",
+        image: tiktoklogo,
       },
       
     ],
