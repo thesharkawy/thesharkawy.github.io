@@ -1,5 +1,5 @@
 import React from 'react'
-import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileMenu, MobileLink } from './NavbarStyledComponent'
+import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, LinkedInButton, ButtonContainer, MobileIcon, MobileMenu, MobileLink } from './NavbarStyledComponent'
 import { DiReact } from "react-icons/di";
 import { FaBars } from 'react-icons/fa';
 import { Bio } from '../../data/constants';
@@ -29,7 +29,7 @@ const Navbar = () => {
           <NavLink href="#contact">Contact</NavLink>
         </NavItems>
         <ButtonContainer>
-          <GitHubButton href={Bio.linkedin} target="_blank">LinkedIn Profile</GitHubButton>
+          <LinkedInButton href={Bio.linkedin} target="_blank">LinkedIn Profile</LinkedInButton>
         </ButtonContainer>
         {
           isOpen &&
@@ -49,7 +49,7 @@ const Navbar = () => {
             <MobileLink href="#contact" onClick={() => {
               setIsOpen(!isOpen)
             }}>Contact</MobileLink>
-            <GitHubButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href={Bio.linkedin} target="_blank">LinkedIn Profile</GitHubButton>
+            <LinkedInButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href={Bio.linkedin} target="_blank">LinkedIn Profile</LinkedInButton>
           </MobileMenu>
         }
       </NavbarContainer>
