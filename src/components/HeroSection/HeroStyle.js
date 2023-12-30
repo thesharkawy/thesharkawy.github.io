@@ -1,12 +1,13 @@
 import styled from "styled-components";
-import _default from "../../themes/default";
+// import _default from "../../themes/default";
 
 export const HeroContainer = styled.div`
   background: ${({ theme }) => theme.card_light};
   display: flex;
   justify-content: center;
   position: relative;
-  padding: 80px 30px;
+  // Modified from 80px thesharkawy
+  padding: 120px 30px;
   @media (max-width: 960px) {
     padding: 66px 16px;
   }
@@ -130,18 +131,22 @@ export const Title = styled.div`
 
 export const TextLoop = styled.div`
   font-weight: 600;
-  font-size: 32px;
+  font-size: 40px;
   display: flex;
   gap: 12px;
+  // Modified thesharkawy
+  padding-bottom: 40px;
   color: ${({ theme }) => theme.text_primary};
   line-height: 68px;
   @media (max-width: 960px) {
     text-align: center;
+    padding-bottom: 24px;
   }
   @media (max-width: 640px) {
     font-size: 22px;
     line-height: 48px;
     margin-bottom: 16px;
+    padding-bottom: 24px;
   }
 `;
 
@@ -150,10 +155,12 @@ export const Span = styled.span`
   cursor: pointer;
 `;
 
+// thesharkawy modify line height
 export const SubTitle = styled.div`
   font-size: 20px;
   line-height: 32px;
   margin-bottom: 42px;
+  max-width: 95%;
   color: ${({ theme }) => theme.text_primary + 95};
 
   @media (max-width: 960px) {
@@ -162,7 +169,7 @@ export const SubTitle = styled.div`
 
   @media (max-width: 640px) {
     font-size: 16px;
-    line-height: 32px;
+    line-height: 25px;
   }
 `;
 
@@ -174,7 +181,7 @@ export const ResumeButton = styled.a`
     width: 95%;
     max-width: 300px;
     text-align: center;
-    padding: 16px 0;
+    padding: 16px 0px;
     color:${({ theme }) => theme.white};
     border-radius: 20px;
     cursor: pointer;

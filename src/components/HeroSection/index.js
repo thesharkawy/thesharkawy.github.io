@@ -1,6 +1,6 @@
 import React from 'react'
 import HeroBgAnimation from '../HeroBgAnimation'
-import { HeroContainer, HeroBg, HeroLeftContainer, Img, HeroRightContainer, HeroInnerContainer, TextLoop, Title, Span, SubTitle,SocialMediaIcons,SocialMediaIcon, ResumeButton } from './HeroStyle'
+import { HeroContainer, HeroBg, HeroLeftContainer, Img, HeroRightContainer, HeroInnerContainer, TextLoop, Title, Span, ResumeButton } from './HeroStyle'
 import HeroImg from '../../images/thesharkawy.jpg'
 import Typewriter from 'typewriter-effect';
 import { Bio } from '../../data/constants';
@@ -23,11 +23,13 @@ const HeroSection = () => {
                                         strings: Bio.roles,
                                         autoStart: true,
                                         loop: true,
+                                        delay: 80,
+                                        pauseFor: 1000,
                                     }}
                                 />
                             </Span>
                         </TextLoop>
-                        <SubTitle>{Bio.description}</SubTitle>
+                        {/* <SubTitle>{Bio.description}</SubTitle> */}
                         <ResumeButton href={Bio.resume} target='display'>My Resume</ResumeButton>
                     </HeroLeftContainer>
 

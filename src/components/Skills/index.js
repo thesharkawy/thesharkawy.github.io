@@ -18,7 +18,10 @@ justify-content: space-between;
 align-items: center;
 flex-direction: column;
 width: 100%;
-max-width: 1100px;
+// Added thesharkawy
+padding-top: 90px;
+// Old 1100 px max-width thesharkawy
+max-width: 1500px;
 gap: 12px;
 @media (max-width: 960px) {
     flex-direction: column;
@@ -40,7 +43,7 @@ margin-top: 12px;
 export const Desc = styled.div`
     font-size: 18px;
     text-align: center;
-    max-width: 600px;
+    max-width: 80%;
     color: ${({ theme }) => theme.text_secondary};
     @media (max-width: 768px) {
         font-size: 16px;
@@ -58,7 +61,8 @@ const SkillsContainer = styled.div`
 
 const Skill = styled.div`
   width: 100%;
-  max-width: 500px;
+  // Old 500 px thesharkawy
+  max-width: 470px;
   background: ${({ theme }) => theme.card};
   border: 0.1px solid #854CE6;
   box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;

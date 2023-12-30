@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import _default from '../../themes/default';
+// import _default from '../../themes/default';
 
 export const Container = styled.div`
     background: linear-gradient(343.07deg, rgba(132, 59, 206, 0.06) 5.71%, rgba(132, 59, 206, 0) 64.83%);
@@ -20,7 +20,8 @@ export const Wrapper = styled.div`
     flex-direction: column;
     width: 100%;
     max-width: 1350px;
-    padding: 10px 0px 100px 0;
+    // Modified padding top from 10px thesharkawy
+    padding: 90px 0px 100px 0;
     gap: 12px;
     @media (max-width: 960px) {
         flex-direction: column;
@@ -42,7 +43,7 @@ margin-top: 20px;
 export const Desc = styled.div`
     font-size: 18px;
     text-align: center;
-    max-width: 600px;
+    max-width: 80%;
     color: ${({ theme }) => theme.text_secondary};
     @media (max-width: 768px) {
         margin-top: 12px;
