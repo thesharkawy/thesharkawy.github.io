@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
-import { Container, Wrapper, Title, Desc, CardContainer, ToggleButtonGroup, ToggleButton, Divider } from './ProjectsStyle'
+import { Container, Wrapper, Title, Desc, CardContainer, ToggleButtonGroup, ToggleButton, LeftToggleButton, RightToggleButton, Divider } from './ProjectsStyle'
 import ProjectCard from '../Cards/ProjectCards'
 import { projects } from '../../data/constants'
 
@@ -16,9 +16,9 @@ const Projects = ({openModal,setOpenModal}) => {
         </Desc>
         <ToggleButtonGroup >
           {toggle === 'all' ?
-            <ToggleButton active value="all" onClick={() => setToggle('all')}>ALL</ToggleButton>
+            <LeftToggleButton active value="all" onClick={() => setToggle('all')}>ALL</LeftToggleButton>
             :
-            <ToggleButton value="all" onClick={() => setToggle('all')}>ALL</ToggleButton>
+            <LeftToggleButton value="all" onClick={() => setToggle('all')}>ALL</LeftToggleButton>
           }
           <Divider />
           {toggle === 'machine learning' ?
@@ -34,9 +34,9 @@ const Projects = ({openModal,setOpenModal}) => {
           }
           <Divider />
           {toggle === 'competition' ?
-            <ToggleButton active value="competition" onClick={() => setToggle('competition')}>COMPETITIONS</ToggleButton>
+            <RightToggleButton active value="competition" onClick={() => setToggle('competition')}>COMPETITIONS</RightToggleButton>
             :
-            <ToggleButton value="competition" onClick={() => setToggle('competition')}>COMPETITIONS</ToggleButton>
+            <RightToggleButton value="competition" onClick={() => setToggle('competition')}>COMPETITIONS</RightToggleButton>
           }
         </ToggleButtonGroup>
         <CardContainer>

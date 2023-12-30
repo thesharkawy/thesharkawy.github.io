@@ -56,7 +56,7 @@ export const ToggleButtonGroup = styled.div`
     border: 1.5px solid ${({ theme }) => theme.primary};
     color: ${({ theme }) => theme.primary};
     font-size: 16px;
-    border-radius: 12px;
+    border-radius: 8px;
     font-weight: 500;
     margin: 22px 0px;
     @media (max-width: 768px) {
@@ -66,21 +66,64 @@ export const ToggleButtonGroup = styled.div`
 
 export const ToggleButton = styled.div`
     padding: 8px 18px;
-    border-radius: 6px;
+    border-radius: 0px;
     cursor: pointer;
     ${({ active, theme }) =>
         active && `
-    background: ${theme.primary + 20};
+    background: ${theme.primary};
+    color: white;
     `
     }
     &:hover {
-        background: ${({ theme }) => theme.primary + 8};
+        background: ${({ theme }) => theme.primary};
+        color: white;
     }
     @media (max-width: 800px) {
         padding: 6px 8px;
         border-radius: 4px;
     }
 `
+
+export const LeftToggleButton = styled.div`
+    padding: 8px 18px;
+    border-radius: 6px 0px 0px 6px;
+    cursor: pointer;
+    ${({ active, theme }) =>
+        active && `
+    background: ${theme.primary};
+    color: white;
+    `
+    }
+    &:hover {
+        background: ${({ theme }) => theme.primary};
+        color: white;
+    }
+    @media (max-width: 800px) {
+        padding: 6px 8px;
+        border-radius: 4px;
+    }
+`
+
+export const RightToggleButton = styled.div`
+    padding: 8px 18px;
+    border-radius: 0px 6px 6px 0px;
+    cursor: pointer;
+    ${({ active, theme }) =>
+        active && `
+    background: ${theme.primary};
+    color: white;
+    `
+    }
+    &:hover {
+        background: ${({ theme }) => theme.primary};
+        color: white;
+    }
+    @media (max-width: 800px) {
+        padding: 6px 8px;
+        border-radius: 4px;
+    }
+`
+
 export const Divider = styled.div`
     width: 1.5px;
     background: ${({ theme }) => theme.primary};
